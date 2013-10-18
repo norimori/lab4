@@ -26,6 +26,7 @@
 					<li data-target="#pawnee-carousel" data-slide-to="2"></li>					
 					<li data-target="#pawnee-carousel" data-slide-to="3"></li>					
 				</ol>
+
 				<!-- Slides -->
 				<div class="carousel-inner">
 					<div class="item active">
@@ -52,9 +53,16 @@
 							<p>Spring in our Parks</p>
 						</div>
 					</div>
-
 				</div> <!-- Slides -->
-				...more to come...
+
+			    <!-- Left-right controls -->
+			    <a class="left carousel-control" href="#pawnee-carousel" data-slide="prev">
+			        <span class="icon-prev"></span>
+			    </a>
+			    <a class="right carousel-control" href="#pawnee-carousel" data-slide="next">
+			        <span class="icon-next"></span>
+			    </a>
+			
 			</div> <!-- Carousel -->
 		</div>
 
@@ -62,5 +70,9 @@
 		<!-- Hot links to Bootstrap JS and jQuery (required by Bootstrap). Put at bottom so content of page can be paresed/displayed wihle the browser continues to download/parse JS files. -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>	
+	    <!-- auto-play the carousel -->
+	    <script>
+	        $('.carousel').carousel();
+	    </script>
 	</body>
 </html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="description" content="City of Pawnee Parks Department Home Page">
+		<meta =name="author" content="norimori">
+		<!-- Tells mobile browser how to set up initial viewport. First part tells mobile browser to use the entire screen width for the viewport. The second part tells it to set the initial scaling factor to 1.0 (don't zoom out by default). -->
+		<meta content="width=device-width, initial-scale=1.0">
+
+		<link rel="shortcut icon" href="img/logo.png">
+		<!-- Hot link to Bootstrap CSS -->
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/.styles.css">
+
+		<title>Pawnee Parks Department</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Carousel -->
+			<div id="pawnee-carousel" class="carousel slide">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#pawnee-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#pawnee-carousel" data-slide-to="1"></li>
+					<li data-target="#pawnee-carousel" data-slide-to="2"></li>					
+					<li data-target="#pawnee-carousel" data-slide-to="3"></li>					
+				</ol>
+				<!-- Slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/summer-park.jpg" alt="Summer in the Park">
+						<div class="carousel-caption">
+							<p>Summer in our Parks</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/autumn-park.jpg" alt="Autumn in the Park">
+						<div class="carousel-caption">
+							<p>Autumn in our Parks</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/winter-park.jpg" alt="Winter in the Park">
+						<div class="carousel-caption">
+							<p>Winter in our Parks</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/spring-park.jpg" alt="Spring in the Park">
+						<div class="carousel-caption">
+							<p>Spring in our Parks</p>
+						</div>
+					</div>
+
+				</div> <!-- Slides -->
+				...more to come...
+			</div> <!-- Carousel -->
+		</div>
+
+
+		<!-- Hot links to Bootstrap JS and jQuery (required by Bootstrap). Put at bottom so content of page can be paresed/displayed wihle the browser continues to download/parse JS files. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>	
+	</body>
+</html>

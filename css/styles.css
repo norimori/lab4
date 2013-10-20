@@ -9,3 +9,7 @@ the browser default styles before applying their own */
 	margin-bottom: 1em;
 }
 
+/* styles to apply on very narrow screens */
+@media screen and (max-width: 767px) {
+	display: none;
+}

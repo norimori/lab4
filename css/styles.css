@@ -11,5 +11,7 @@ the browser default styles before applying their own */
 
 /* styles to apply on very narrow screens */
 @media screen and (max-width: 767px) {
-	display: none;
+	.carousel {
+		display: none;
+	}
 }
